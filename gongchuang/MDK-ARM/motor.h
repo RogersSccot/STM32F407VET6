@@ -8,14 +8,19 @@
 #include "gpio.h"
 
 #define MOTOR_MOVE_TIM htim1
-#define MOTOR_ROTATE_TIM htim3
+#define MOTOR_UP_TIM htim3
 
 #define MOTOR_LF_CHANNEL TIM_CHANNEL_1
 #define MOTOR_RF_CHANNEL TIM_CHANNEL_2
-#define MOTOR_LB_CHANNEL TIM_CHANNEL_3
-#define MOTOR_RB_CHANNEL TIM_CHANNEL_4
+#define MOTOR_BACK_CHANNEL TIM_CHANNEL_3
 
-#define MOTOR_ROTATE_CHANNEL TIM_CHANNEL_1
+#define MOTOR_UP_CHANNEL TIM_CHANNEL_1
+
+
+#define angle_floor 0
+#define angle_lift_low 0
+#define angle_lift_high 0
+#define angle_plate 0
 
 typedef struct _Motor
 {
@@ -26,13 +31,12 @@ typedef struct _Motor
 
 extern Motor motor_lf;
 extern Motor motor_rf;
-extern Motor motor_lb;
-extern Motor motor_rb;
-extern Motor motor_rotate;
+extern Motor motor_back;
+extern Motor motor_up;
 
 void motor_init(Motor motor);
 
-void motor_control(Motor motor);
+void motor_control(Motor motor,float angle);
 
 void move_foward(float distance);
 	
@@ -41,5 +45,9 @@ void move_back(float distance);
 void move_left(float distance);
 	
 void move_right(float distance);
+
+void turn_left(float angle);
+	
+void turn_right(float angle);
 
 #endif

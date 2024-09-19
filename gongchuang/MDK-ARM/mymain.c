@@ -1,5 +1,9 @@
 #include "mymain.h"
 
+uint8_t state_flag;
+
+
+uint8_t rgb_stack[3] = {1,2,3};
 
 //int fputc(int ch, FILE *f) // printf
 //{
@@ -24,12 +28,29 @@ void system_init(void)
 {
 	motor_init(motor_lf);
 	motor_init(motor_rf);
-	motor_init(motor_lb);
-	motor_init(motor_rb);
-	motor_init(motor_rotate);
+	motor_init(motor_back);
+	steer_init(steer_rotate);
+	steer_init(steer_catch);
+	motor_init(motor_up);
 }
 
 void state_machine(void)
 {
-	
+	switch (state_flag)
+	{
+		case START:
+			break;
+		case MOVE_1:
+			break;
+		case SCAN:
+			break;
+		case MOVE_2:
+			break;
+		case MATERIAL_AREA:
+			break;
+		case STORE_AREA:
+			break;
+		case DEAL_AREA:
+			break;
+	}
 }
