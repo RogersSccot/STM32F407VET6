@@ -43,7 +43,6 @@ extern TIM_HandleTypeDef htim5;
 extern TIM_HandleTypeDef htim12;
 
 /* USER CODE BEGIN Private defines */
-
 /* USER CODE END Private defines */
 
 void MX_TIM1_Init(void);

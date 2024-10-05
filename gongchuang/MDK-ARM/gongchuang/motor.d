@@ -36,3 +36,4 @@ gongchuang\motor.o: ../Core/Inc/main.h
 gongchuang\motor.o: ../Core/Inc/tim.h
 gongchuang\motor.o: ../Core/Inc/usart.h
 gongchuang\motor.o: ../Core/Inc/gpio.h
+gongchuang\motor.o: datou.h

@@ -36,5 +36,7 @@ gongchuang\main.o: ../Core/Inc/tim.h
 gongchuang\main.o: ../Core/Inc/usart.h
 gongchuang\main.o: ../Core/Inc/gpio.h
 gongchuang\main.o: ../MDK-ARM/mymain.h
+gongchuang\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 gongchuang\main.o: ../MDK-ARM/steer.h
 gongchuang\main.o: ../MDK-ARM/motor.h
+gongchuang\main.o: ../MDK-ARM/datou.h

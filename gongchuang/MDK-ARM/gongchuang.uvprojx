@@ -466,6 +466,16 @@
               <FileType>5</FileType>
               <FilePath>.\catch.h</FilePath>
             </File>
+            <File>
+              <FileName>datou.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\datou.h</FilePath>
+            </File>
+            <File>
+              <FileName>datou.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\datou.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

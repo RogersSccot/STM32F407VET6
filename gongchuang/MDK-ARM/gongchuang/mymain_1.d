@@ -36,5 +36,7 @@ gongchuang\mymain_1.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 gongchuang\mymain_1.o: ../Core/Inc/tim.h
 gongchuang\mymain_1.o: ../Core/Inc/usart.h
 gongchuang\mymain_1.o: ../Core/Inc/gpio.h
+gongchuang\mymain_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 gongchuang\mymain_1.o: steer.h
 gongchuang\mymain_1.o: motor.h
+gongchuang\mymain_1.o: datou.h

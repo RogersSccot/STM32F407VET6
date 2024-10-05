@@ -13,6 +13,7 @@
 #define MOTOR_LF_CHANNEL TIM_CHANNEL_1
 #define MOTOR_RF_CHANNEL TIM_CHANNEL_2
 #define MOTOR_BACK_CHANNEL TIM_CHANNEL_3
+#define MOTOR_ROTATE_CHANNEL TIM_CHANNEL_4
 
 #define MOTOR_UP_CHANNEL TIM_CHANNEL_1
 
@@ -32,6 +33,7 @@ typedef struct _Motor
 extern Motor motor_lf;
 extern Motor motor_rf;
 extern Motor motor_back;
+extern Motor motor_rotate;
 extern Motor motor_up;
 
 void motor_init(Motor motor);
@@ -50,4 +52,5 @@ void turn_left(float angle);
 	
 void turn_right(float angle);
 
+void Motor1_pwm_Set(int motor1_n);
 #endif

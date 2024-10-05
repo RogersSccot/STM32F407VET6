@@ -11,6 +11,7 @@
 "gongchuang\steer.o"
 "gongchuang\motor.o"
 "gongchuang\catch.o"
+"gongchuang\datou.o"
 "gongchuang\stm32f4xx_hal_tim.o"
 "gongchuang\stm32f4xx_hal_tim_ex.o"
 "gongchuang\stm32f4xx_hal_rcc.o"
