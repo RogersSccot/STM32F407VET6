@@ -1,7 +1,6 @@
 gongchuang\mymain_1.o: mymain.c
 gongchuang\mymain_1.o: mymain.h
-gongchuang\mymain_1.o: ../Core/Inc/dma.h
-gongchuang\mymain_1.o: ../Core/Inc/main.h
+gongchuang\mymain_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 gongchuang\mymain_1.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 gongchuang\mymain_1.o: ../Core/Inc/stm32f4xx_hal_conf.h
 gongchuang\mymain_1.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
@@ -33,10 +32,12 @@ gongchuang\mymain_1.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.
 gongchuang\mymain_1.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 gongchuang\mymain_1.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 gongchuang\mymain_1.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+gongchuang\mymain_1.o: ../Core/Inc/dma.h
+gongchuang\mymain_1.o: ../Core/Inc/main.h
 gongchuang\mymain_1.o: ../Core/Inc/tim.h
 gongchuang\mymain_1.o: ../Core/Inc/usart.h
 gongchuang\mymain_1.o: ../Core/Inc/gpio.h
-gongchuang\mymain_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 gongchuang\mymain_1.o: steer.h
 gongchuang\mymain_1.o: motor.h
 gongchuang\mymain_1.o: datou.h
+gongchuang\mymain_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

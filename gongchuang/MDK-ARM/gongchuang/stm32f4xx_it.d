@@ -33,11 +33,13 @@ gongchuang\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim
 gongchuang\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 gongchuang\stm32f4xx_it.o: ../Core/Inc/stm32f4xx_it.h
 gongchuang\stm32f4xx_it.o: ../MDK-ARM/mymain.h
+gongchuang\stm32f4xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 gongchuang\stm32f4xx_it.o: ../Core/Inc/dma.h
 gongchuang\stm32f4xx_it.o: ../Core/Inc/tim.h
 gongchuang\stm32f4xx_it.o: ../Core/Inc/usart.h
 gongchuang\stm32f4xx_it.o: ../Core/Inc/gpio.h
-gongchuang\stm32f4xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 gongchuang\stm32f4xx_it.o: ../MDK-ARM/steer.h
 gongchuang\stm32f4xx_it.o: ../MDK-ARM/motor.h
 gongchuang\stm32f4xx_it.o: ../MDK-ARM/datou.h
+gongchuang\stm32f4xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+gongchuang\stm32f4xx_it.o: ../MDK-ARM/uart.h

@@ -40,3 +40,5 @@ gongchuang\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 gongchuang\main.o: ../MDK-ARM/steer.h
 gongchuang\main.o: ../MDK-ARM/motor.h
 gongchuang\main.o: ../MDK-ARM/datou.h
+gongchuang\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+gongchuang\main.o: ../MDK-ARM/uart.h

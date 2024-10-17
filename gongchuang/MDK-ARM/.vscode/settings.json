@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "mymain.h": "c",
+        "datou.h": "c",
+        "motor.h": "c",
+        "steer.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "usart.h": "c",
+        "string.h": "c",
+        "time.h": "c",
+        "uart.h": "c",
+        "gpio.h": "c",
+        "dma.h": "c",
+        "main.h": "c"
+    }
+}

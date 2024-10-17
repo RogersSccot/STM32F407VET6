@@ -37,3 +37,7 @@ gongchuang\motor.o: ../Core/Inc/tim.h
 gongchuang\motor.o: ../Core/Inc/usart.h
 gongchuang\motor.o: ../Core/Inc/gpio.h
 gongchuang\motor.o: datou.h
+gongchuang\motor.o: mymain.h
+gongchuang\motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+gongchuang\motor.o: steer.h
+gongchuang\motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
