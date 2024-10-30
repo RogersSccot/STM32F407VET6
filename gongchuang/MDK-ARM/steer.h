@@ -33,5 +33,7 @@ void pick_up_high(int color);
 void pick_up_low(int color);
 void put_down_low(int color);
 void put_down_high(int color);
+void test_catch(void);
+void test_put(void);
 
 #endif

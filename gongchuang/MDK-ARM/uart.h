@@ -19,6 +19,9 @@ extern uint8_t receive_buff_2[50];
 extern uint8_t receive_buff_3[50];
 extern uint8_t receive_buff_6[50];
 
+extern int catch_flag;
+extern int put_flag;
+
 void DMA_USART_Init(UART_HandleTypeDef *huart);
 void Bluetooth_UART_IRQHandler(UART_HandleTypeDef * huart);
 

@@ -120,10 +120,11 @@ int main(void)
   system_init();
   // init order 
   HAL_UART_Transmit(&huart1, "START", 5, 0xff);
-	HAL_Delay(1000);
-	steer_control(steer_catch,20);
-	steer_control(steer_plate,20);
-	move_left(10,100);
+  // test order
+	//test_catch();
+	//test_put();
+	// steer_control(steer_catch,20);
+	// steer_control(steer_plate,20);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -134,6 +135,12 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     mymain();
+		
+    // printf("time_Tick_s:%f\n",time_Tick_s);
+    if(1)
+    {
+      HAL_Delay(1000);
+    }
   }
   /* USER CODE END 3 */
 }

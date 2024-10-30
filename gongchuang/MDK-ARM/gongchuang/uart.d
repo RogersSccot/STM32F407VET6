@@ -42,3 +42,5 @@ gongchuang\uart.o: motor.h
 gongchuang\uart.o: datou.h
 gongchuang\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 gongchuang\uart.o: mymain.h
+gongchuang\uart.o: time.h
+gongchuang\uart.o: uart.h

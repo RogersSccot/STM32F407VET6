@@ -23,7 +23,7 @@
 #define angle_plate 0
 
 // accelerate time (s)
-#define t_acc 0.1
+#define t_acc 1
 // acceleratime value (cm/s/s)
 #define a_acc_k 10
 
@@ -49,6 +49,18 @@ typedef struct _Motor
 extern double a4_acc1;
 extern double begin4_time1;
 extern double end4_time1;
+extern double begin4_time2;
+extern double end4_time2;
+extern double a4_acc2;
+extern double begin4_time3;
+extern double end4_time3;
+extern double a4_acc3;
+extern double begin4_time4;
+extern double end4_time4;
+extern double a4_acc4;
+extern double begin4_time5;
+extern double end4_time5;
+extern double a4_acc5;
 
 // motor 1
 extern Motor motor_lf;

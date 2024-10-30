@@ -38,3 +38,6 @@ gongchuang\steer.o: ../Core/Inc/tim.h
 gongchuang\steer.o: ../Core/Inc/usart.h
 gongchuang\steer.o: ../Core/Inc/gpio.h
 gongchuang\steer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+gongchuang\steer.o: time.h
+gongchuang\steer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+gongchuang\steer.o: datou.h

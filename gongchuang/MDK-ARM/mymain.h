@@ -11,9 +11,12 @@
 #include "motor.h"
 #include "datou.h"
 #include "stdio.h"
+#include "time.h"
+#include "uart.h"
 
 #define GAP_TIM htim5
-#define GAP_LENGTH 100
+#define GAP_LENGTH 100 //两个圈的间隔，100mm
+//这些是状态
 #define START 0
 #define MOVE_1 1
 #define SCAN 2
@@ -25,15 +28,7 @@
 #define STORE_AREA 8
 #define MOVE_5 9
 
-extern int pulse4_flag1;
-extern int pulse4_1;
-extern int pulse4_set1;
-extern int pulse4_flag2;
-extern int pulse4_2;
-extern int pulse4_set2;
-extern int pulse4_flag3;
-extern int pulse4_3;
-extern int pulse4_set3;
+
 extern long long int time_Tick;
 extern double time_Tick_s;
 extern uint8_t state_flag;

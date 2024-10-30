@@ -41,3 +41,6 @@ gongchuang\motor.o: mymain.h
 gongchuang\motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 gongchuang\motor.o: steer.h
 gongchuang\motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+gongchuang\motor.o: time.h
+gongchuang\motor.o: uart.h
+gongchuang\motor.o: mymain.h

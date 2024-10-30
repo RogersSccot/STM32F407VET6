@@ -42,4 +42,6 @@ gongchuang\stm32f4xx_it.o: ../MDK-ARM/steer.h
 gongchuang\stm32f4xx_it.o: ../MDK-ARM/motor.h
 gongchuang\stm32f4xx_it.o: ../MDK-ARM/datou.h
 gongchuang\stm32f4xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+gongchuang\stm32f4xx_it.o: ../MDK-ARM/time.h
 gongchuang\stm32f4xx_it.o: ../MDK-ARM/uart.h
+gongchuang\stm32f4xx_it.o: ../MDK-ARM/mymain.h
